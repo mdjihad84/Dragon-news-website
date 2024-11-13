@@ -1,7 +1,6 @@
 
-
-import HeadLine from "./HeadLine";
-import HomePage from "./HomePage";
+import Paper from "./Paper";
+import Card from "./CardSection";
 import { Helmet } from "react-helmet-async";
 
 const Home = () => {
@@ -10,9 +9,10 @@ const Home = () => {
       <Helmet>
         <title>Bistro | Home</title>
       </Helmet>
+      <Paper/>
       <div className="p-8">
-        <HeadLine/>
-        <HomePage/>
+        <Card/>
+  
       </div>
     </div>
   );

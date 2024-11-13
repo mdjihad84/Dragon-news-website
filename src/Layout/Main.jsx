@@ -1,6 +1,5 @@
 
 import { Outlet, useLocation } from "react-router-dom";
-import Footer from "../Pages/Shared/Footer";
 import Header from "../Pages/Shared/Header";
 
 const Main = () => {
@@ -12,7 +11,6 @@ const Main = () => {
     <div>
       {noHeader || <Header />}
       <Outlet />
-      {noHeader || <Footer />}
     </div>
   );
 };
