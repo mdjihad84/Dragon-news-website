@@ -26,10 +26,10 @@ const News = () => {
         <div className="">
             <div className="flex justify-end gap-[47%]">
               <div className="flex gap-4">
-                <NavLink to="/LoginPage" className="text-lg text-[#706F6F]" activeClassName="font-semibold">
+                <NavLink to="/Login" className="text-lg text-[#706F6F]" activeClassName="font-semibold">
                     Home
                 </NavLink>
-                <NavLink to="/about" className="text-lg text-[#706F6F]" activeClassName="font-semibold">
+                <NavLink to="/Register" className="text-lg text-[#706F6F]" activeClassName="font-semibold">
                     About
                 </NavLink>
             </div>

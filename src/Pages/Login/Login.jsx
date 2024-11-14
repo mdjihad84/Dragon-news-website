@@ -19,7 +19,7 @@ const LoginForm = () => {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100 p-6">
-      <div className="max-w-md w-full bg-white p-8 rounded-lg shadow-lg">
+      <div className="w-[620px] bg-white p-8 rounded-lg shadow-lg">
         <h2 className="text-2xl font-semibold text-center text-gray-800 mb-6">Login</h2>
         {error && <div className="text-red-500 text-center mb-4">{error}</div>}
         <form onSubmit={handleSubmit}>
@@ -29,7 +29,7 @@ const LoginForm = () => {
             <input
               type="email"
               id="email"
-              className="mt-1 w-full p-3 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
+              className="mt-1 w-full p-3 border border-gray-300 rounded-md bg-[#F3F3F3]"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
@@ -42,7 +42,7 @@ const LoginForm = () => {
             <input
               type={showPassword ? 'text' : 'password'}
               id="password"
-              className="mt-1 w-full p-3 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
+              className="mt-1 w-full p-3 border border-gray-300 rounded-md bg-[#F3F3F3] focus:ring-blue-500 focus:border-blue-500"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
@@ -59,7 +59,7 @@ const LoginForm = () => {
           {/* Submit Button */}
           <button
             type="submit"
-            className="w-full py-3 mt-6 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
+            className="w-full py-3 mt-6 bg-[#403F3F] text-white font-semibold rounded-md hover:bg-[#181616] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
           >
             Log In
           </button>
