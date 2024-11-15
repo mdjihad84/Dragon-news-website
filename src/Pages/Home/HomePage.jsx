@@ -41,10 +41,10 @@ const News = () => {
                 </div>
             </div>
 
-            <div className="grid-cols-1 lg:grid-cols-3 lg:flex lg:justify-evenly lg:gap-[30px] lg:ml-[-35px]">
+            <div className="grid-cols-1 lg:grid-cols-3 lg:flex lg:justify-evenly lg:gap-[20px] lg:ml-[-35px]">
                 <div className="leading-[35px]">
                     {/* Card 1 */}
-                    <h5 className='text-[#403F3F] text-xl font-semibold ml-[80px] my-6 lg:ml-[45px]'>All Caterogy</h5>
+                    <h5 className='text-[#403F3F] text-xl font-semibold ml-[80px] my-6 lg:ml-[45px] lg:mt-[0px]'>All Caterogy</h5>
                     <div className="ml-[45px] sm:ml-[-40px] md:ml-[-60px] lg:ml-[-30px] space-y-4 sm:space-y-2">
                         <NavLink to="/Card1">
                             <h4 className="bg-white w-[200px] sm:w-[220px] md:w-[240px] lg:w-[267px] h-[40px] sm:h-[45px] md:h-[50px] rounded-md hover:text-[#403F3F] cursor-pointer hover:bg-[#E7E7E7] text-center flex items-center justify-center transition duration-267 text-sm sm:text-base md:text-lg">
@@ -102,7 +102,7 @@ const News = () => {
                                 <img className="rounded-md" src={ManImg} alt="Man" />
                             </div>
                             <div className="mt-4">
-                                <h2 className="text-[#403F3F] text-xl md:text-2xl font-semibold">
+                                <h2 className="text-[#403F3F] text-xl md:text-xl font-semibold">
                                     Bayern Slams Authorities Over Flight Delay to Club World Cup
                                 </h2>
                                 <div className="flex justify-around mt-4 text-sm md:text-base">
@@ -118,7 +118,7 @@ const News = () => {
                                 <img className="rounded-md" src={GroupImg} alt="Man" />
                             </div>
                             <div className="mt-4">
-                                <h2 className="text-[#403F3F] text-xl md:text-2xl font-semibold">
+                                <h2 className="text-[#403F3F] text-xl md:text-xl font-semibold">
                                     Bayern Slams Authorities Over Flight Delay to Club World Cup
                                 </h2>
                                 <div className="flex justify-around mt-4 text-sm md:text-base">
@@ -134,7 +134,7 @@ const News = () => {
                                 <img className="rounded-md" src={ManImg} alt="Man" />
                             </div>
                             <div className="mt-4">
-                                <h2 className="text-[#403F3F] text-xl md:text-2xl font-semibold">
+                                <h2 className="text-[#403F3F] text-xl md:text-xl font-semibold">
                                     Bayern Slams Authorities Over Flight Delay to Club World Cup
                                 </h2>
                                 <div className="flex justify-around mt-4 text-sm md:text-base">
@@ -150,17 +150,18 @@ const News = () => {
                                 <img className="rounded-md" src={GroupImg} alt="Man" />
                             </div>
                             <div className="mt-4">
-                                <h2 className="text-[#403F3F] text-xl md:text-2xl font-semibold">
+                                <h2 className="text-[#403F3F] text-xl md:text-xl font-semibold">
                                     Bayern Slams Authorities Over Flight Delay to Club World Cup
                                 </h2>
                             </div>
                         </div>
                     </div>
                 </div>
+
             {/* Card number 2 */}
             <div className="mr-6 lg:ml-[85px] flex flex-col items-center gap-6">
                 <div className="w-full max-w-[485px]">
-                    <h4 className="text-[#403F3F] text-2xl font-bold mb-6">Dragon News Home</h4>
+                    <h4 className="text-[#403F3F] text-xl font-bold mb-6">Dragon News Home</h4>
                 </div>
                 
                 <div className="card w-[370px] lg:w-[485px] border border-[#E7E7E7]">
@@ -266,7 +267,7 @@ const News = () => {
             {/* card number 3 */}
             <div className="pl-5 md:pl-10 lg:pl-20 flex flex-col items-center lg:items-start">
                 <img src={Loginlmg} alt="" className="w-32 lg:w-48" />
-                <h4 className="mt-8 mb-4 text-2xl font-bold text-[#403F3F]">Find Us On</h4>
+                <h4 className="mt-8 mb-4 text-xl font-bold text-[#403F3F]">Find Us On</h4>
 
                 <div className="border border-[#E7E7E7] p-4 rounded-lg w-full max-w-xs bg-white">
                     {/* Facebook Link */}
@@ -305,7 +306,7 @@ const News = () => {
 
                     {/* Overlay content */}
                     <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-30 text-white text-center p-4">
-                        <h1 className="text-2xl md:text-3xl font-bold">Create an Amazing Newspaper</h1>
+                        <h1 className="text-xl md:text-3xl font-bold">Create an Amazing Newspaper</h1>
                         <p className="my-4 text-sm md:text-base">Discover thousands of options, easy to customize layouts, one-click to import demo and much more.</p>
                         <button className="w-[150px] h-[54px] bg-[#D72050] hover:bg-[#ac163e] text-white font-semibold rounded-md">
                             Learn More
